@@ -8,17 +8,14 @@
     <title>Bootstrap 4</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        .row [class^=col-],
-        .row .col {
-            background-color: #DDD;
-            border: 1px solid #CCC;
+        .avatar {
+            width: 50px;
             height: 50px;
         }
-        
-        .row {
-            background-color: #F99;
-            padding: 10px;
-            height: 500px;
+
+        .media {
+            background-color: #EEE;
+            border-bottom: 1px solid #CCC;
         }
     </style>
 </head>
@@ -26,13 +23,45 @@
 <body>
 
     <div class="container">
-        <div class="row align-items-end justify-content-start">
-            <div class="col-3">Primeira</div>
-            <div class="col-3">Segunda</div>
-            <div class="col-3">Terceira</div>
-        </div>
-    </div>
 
+        <ul class="list-unstyled">
+            <li class="media">
+                <img src="me.jpg" class="mr-3 avatar align-self-center">
+                <!-- mr-3 -->
+                <div class="media-body">
+                    <h5>Algum tipo de título</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta maxime repellat minima! Quisquam neque corporis sequi id eum expedita deserunt? Sunt autem voluptates quo eos, eaque dolorum non provident.
+                    </p>
+                </li>
+                <!-- media-body -->
+            <li class="media">
+                <img src="me.jpg" class="mr-3 avatar align-self-center">
+                <!-- mr-3 -->
+                <div class="media-body">
+                    <h5>Algum tipo de título</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta maxime repellat minima! Quisquam neque corporis sequi id eum expedita deserunt? Sunt autem voluptates quo eos, eaque dolorum non provident.
+                    </p>
+                </li>
+                <!-- media-body -->
+            <li class="media">
+                <img src="me.jpg" class="mr-3 avatar align-self-center">
+                <!-- mr-3 -->
+                <div class="media-body">
+                    <h5>Algum tipo de título</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta maxime repellat minima! Quisquam neque corporis sequi id eum expedita deserunt? Sunt autem voluptates quo eos, eaque dolorum non provident.
+                    </p>
+                </li>
+                <!-- media-body -->
+            </div>  
+            <!-- media -->
+        </ul>
+        <!-- list-unstyled -->
+
+    </div>
+    <!-- container -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
