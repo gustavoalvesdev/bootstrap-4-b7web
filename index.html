@@ -21,20 +21,43 @@
 
     <div class="container">
 
-        <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#area">
-            Mostrar / Esconder
-        </button>
+        <div id="accordion">
 
-        <div class="collapse" id="area">
-            O texto escondido que vai aparecer.
-        </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c1" aria-controls="c1">Título do Card 1</button>
+                </div>
+                <div id="c1" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, quas nostrum veritatis hic asperiores dolores provident atque autem odio minima! Voluptatum cumque ipsa pariatur recusandae, minima odit corporis distinctio est?
 
-        <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#area2">
-            Mostrar / Esconder
-        </button>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, quas nostrum veritatis hic asperiores dolores provident atque autem odio minima! Voluptatum cumque ipsa pariatur recusandae, minima odit corporis distinctio est?
+                    </div>
+                </div>
+            </div>
 
-        <div class="collapse" id="area2">
-            O texto escondido que vai aparecer.
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c2" aria-controls="c2">Título do Card 2 Lorem</button>
+                </div>
+                <div id="c2" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, quas nostrum veritatis hic asperiores dolores provident atque autem odio minima! Voluptatum cumque ipsa pariatur recusandae, minima odit corporis
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c3" aria-controls="c3">Título do Card 3</button>
+                </div>
+                <div id="c3" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, quas nostrum veritatis hic asperiores dolores provident atque autem odio minima! Voluptatum cumque ipsa pariatur recusandae, minima odit corporis consectetur adipisicing elit. Molestiae, quas nostrum veritatis hic asperiores dolores provident atque autem odio minima! Voluptatum cumque ipsa pariatur recusandae, minima odit corporis
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>  
