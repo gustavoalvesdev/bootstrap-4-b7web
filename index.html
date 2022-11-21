@@ -11,29 +11,32 @@
 
 <body>
 
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: turquoise;">
 
-        <button class="btn btn-primary" data-toggle="modal" data-target="#janela">Clique aqui para abrir</button>
+        <a href="#" class="navbar-brand">Studio Color</a>
 
-        <div class="modal fade" id="janela">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Título do Modal</h5>
-                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        body do modal
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-danger" data-dismiss="modal">Fechar Janela</button>
-                    </div>
-                </div>
+        
+
+        <div class="navbar-collapse collapse" id="navbar-menu">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Sobre</a>
+                <a href="#" class="nav-item nav-link">Galeria</a>
+                <a href="#" class="nav-item nav-link">Contato</a>
             </div>
         </div>
 
-    </div>  
-    <!-- container -->
+        <form method="POST" class="form-inline">
+            <input type="text" class="form-control" placeholder="Insira um termo de busca..">
+            <input type="submit" name="pesquisar" class="btn btn-primary" value="Buscar">
+        </form>
+
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
 
 
     <script src="js/jquery-3.6.0.min.js"></script>
