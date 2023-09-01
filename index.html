@@ -13,21 +13,18 @@
 
     <div class="container">
 
-        <ul class="pagination pagination-lg justify-content-center">
-            <li class="page-item disabled"><a href="#" class="page-link">Anterior</a></li>
-            <li class="page-item active"><a href="#" class="page-link">1</a></li>
-            <li class="page-item"><a href="#" class="page-link">2</a></li>
-            <li class="page-item"><a href="#" class="page-link">3</a></li>
-            <li class="page-item"><a href="#" class="page-link">4</a></li>
-            <li class="page-item"><a href="#" class="page-link">5</a></li>
-            <li class="page-item"><a href="#" class="page-link">Próximo</a></li>
-        </ul>
+        <button class="btn btn-success" data-toggle="tooltip" title="Ao clicar irá salvar os dados do usuário" data-placement="right">Salvar</button>
 
     </div>
 
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
