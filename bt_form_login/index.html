@@ -10,11 +10,27 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>  
+<body class="d-flex align-items-center justify-content-center bg-light">  
 
     
-    <div class="area">
-        
+    <div class="area text-center w-100">
+
+        <img src="https://google.com/google.jpg" alt="Logotipo do Google" class="logo w-100">
+
+        <h1 class="my-4 h3">Faça o Login</h1>
+
+        <form>
+            <input type="email" name="email" placeholder="Digite seu e-mail" class="form-control mb-2 pl-2 d-block">
+            <input type="password" name="password" placeholder="Digite sua senha" class="form-control pl-2 d-block">
+
+            <label>
+                <input type="checkbox" name="remember" class="mr-1 mt-4 mb-2"> Lembrar-me
+            </label>
+
+            <input type="submit" value="Entrar" class="form-control btn-primary btn-block">
+
+            <p class="text-muted small">&copy; 2026 - Todos os Direitos Reservados</p>
+        </form>
     </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
